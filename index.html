@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://ondersamet97.github.io/">
+<link rel="alternate" hreflang="tr" href="https://ondersamet97.github.io/">
+<link rel="alternate" hreflang="en" href="https://ondersamet97.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://ondersamet97.github.io/">
+<link rel="icon" href="marka/favicon.svg" type="image/svg+xml">
+<title>töre</title>
+<meta name="description" content="töre, ilgilendiğiniz konularda o konularla ilgilenen kişilerle tartışabileceğiniz bir yer. Açık kaynaklı, yerel bir defter. Kapalı deneme 15 Aralık 2026'da başlayacak.">
+<link rel="preload" href="ortak/Literata-wght.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="ortak/temel.css">
+<link rel="stylesheet" href="stil.css">
+<script src="betik.js" defer></script>
+</head>
+<body class="sayfa--ana">
+<a class="atla" href="#icerik">İçeriğe geç</a>
+
+<header class="ust">
+  <div class="ust__sol">
+    <a class="ust__marka" href="index.html" aria-label="töre ana sayfa">töre</a>
+    <nav class="ust__menu" aria-label="Ana menü">
+      <ul>
+        <li><a href="#bilgi">Bilgi al</a></li>
+        <li><a href="urunler.html">Ürünler</a></li>
+        <li><a href="yol.html">Yol haritası</a></li>
+        <li><a href="kim.html">Kim geliştiriyor</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="ust__sag">
+    <a class="ust__katil" href="katil.html">Katıl</a>
+    <a class="ust__dil" href="en/index.html" hreflang="en" lang="en">EN<span class="gizli"> (English)</span></a>
+    <details class="ust__cekmece">
+      <summary><span class="ust__cekmece-ad">Menü</span></summary>
+      <nav aria-label="Ana menü">
+        <ul>
+          <li><a href="#bilgi">Bilgi al</a></li>
+          <li><a href="urunler.html">Ürünler</a></li>
+          <li><a href="yol.html">Yol haritası</a></li>
+          <li><a href="kim.html">Kim geliştiriyor</a></li>
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="icerik">
+
+  <!-- İlk ekran: başlık ve tam iki seçenek. Büyük perde Katıl, küçük panel Bilgi al. -->
+  <section class="perde" aria-labelledby="baslik">
+    <h1 class="perde__baslik" id="baslik"><span class="perde__ad">töre,</span> ilgilendiğiniz konularda o konularla ilgilenen kişilerle tartışabileceğiniz bir yer.</h1>
+
+    <a class="secenek secenek--katil" href="katil.html" data-secenek="katil" data-perde>
+      <span class="secenek__ic">
+        <span class="secenek__ad" data-sigdir>Katıl</span>
+        <span class="secenek__rozet">Kapalı deneme 15 Aralık'ta başlayacak.</span>
+        <span class="secenek__alt">Neden katılmalısın, bugün ne yapabilirsin?</span>
+        <span class="secenek__ok" aria-hidden="true"><svg class="ok" viewBox="0 0 24 24" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></span>
+      </span>
+    </a>
+
+    <a class="secenek secenek--bilgi" href="#bilgi" data-secenek="bilgi">
+      <span class="bilgi-dizin" aria-hidden="true">
+        <span class="bilgi-dizin__bas">Bu sayfada</span>
+        <span><b>01</b>Tanım ve kanıt</span>
+        <span><b>02</b>Sorun</span>
+        <span><b>03</b>Nasıl çalışır</span>
+        <span><b>04</b>Neden güvenilir</span>
+        <span><b>05</b>Ürünler</span>
+        <span><b>06</b>Kim geliştiriyor</span>
+        <span><b>07</b>Sırada</span>
+        <span><b>08</b>Katıl</span>
+      </span>
+      <span class="secenek__ic">
+        <span class="secenek__ad">Bilgi al</span>
+        <span class="secenek__alt">töre nedir, nasıl çalışır, neden güvenilir?</span>
+        <span class="secenek__ok" aria-hidden="true"><svg class="ok" viewBox="0 0 24 24" focusable="false"><path d="M12 4v15M5.5 13l6.5 6.5 6.5-6.5"/></svg></span>
+      </span>
+    </a>
+  </section>
+
+  <div class="bilgi-alani">
+
+    <!-- Kenar rayı: Bilgi al'ın sekiz sahnesi. Betiksiz de gezinir; betik içinde olunan sahneyi işaretler. -->
+    <div class="ray-kap">
+    <nav class="ray" aria-label="Bilgi al bölümleri">
+      <ol>
+        <li><a href="#bilgi"><span class="ray__no">01</span><span class="ray__ad">Tanım ve kanıt</span></a></li>
+        <li><a href="#sorun"><span class="ray__no">02</span><span class="ray__ad">Sorun</span></a></li>
+        <li><a href="#nasil"><span class="ray__no">03</span><span class="ray__ad">Nasıl çalışır</span></a></li>
+        <li><a href="#guven"><span class="ray__no">04</span><span class="ray__ad">Neden güvenilir</span></a></li>
+        <li><a href="#urunler"><span class="ray__no">05</span><span class="ray__ad">Ürünler</span></a></li>
+        <li><a href="#kim"><span class="ray__no">06</span><span class="ray__ad">Kim geliştiriyor</span></a></li>
+        <li><a href="#sirada"><span class="ray__no">07</span><span class="ray__ad">Sırada</span></a></li>
+        <li><a href="#katil-son"><span class="ray__no">08</span><span class="ray__ad">Katıl</span></a></li>
+      </ol>
+      <p class="ray__simdi" aria-hidden="true"></p>
+    </nav>
+    </div>
+
+    <!-- 01 · Bilgi al: tanım ve kanıt -->
+    <section id="bilgi" aria-labelledby="bilgi-baslik">
+      <div class="sahne sahne--tanim">
+        <p class="etiket"><span class="etiket__no" aria-hidden="true">01</span>Bilgi al</p>
+        <h2 class="tanim__baslik" id="bilgi-baslik"><span class="dev">t<span class="logo-harf">ö</span>re:</span> <span class="ince">yapay zekâ çağında insanın kendi düşüncesine sahip kalması için açık kaynaklı, yerel bir defter.</span></h2>
+        <p class="tanim__sozluk"><b>Açık kaynak:</b> kaynak kodunu herkes okuyabilir. <b>Yerel:</b> töre'nin masaüstü sürümü veriyi kendi bilgisayarında tutar.</p>
+        <ul class="kanitlar">
+          <li><a class="kanit" href="https://github.com/ondersamet97/tore/blob/main/LICENSE"><span class="kanit__ad">Açık kaynak (AGPL)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></span><span class="kanit__yer">lisans dosyası (GitHub, İngilizce)</span></a></li>
+          <li><a class="kanit" href="https://github.com/ondersamet97/tore#principles"><span class="kanit__ad">Veri kişinin kendi bilgisayarında kalır<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></span><span class="kanit__yer">masaüstü sürümünün “varsayılan olarak yerel” ilkesi (GitHub, İngilizce)</span></a></li>
+          <li><a class="kanit" href="yol.html#simdi"><span class="kanit__ad">Sürüm 0.20<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></span><span class="kanit__yer">yol haritası</span></a></li>
+          <li><a class="kanit" href="yol.html#deneme"><span class="kanit__ad">Kapalı deneme az sayıda kişiyle başlayacak<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></span><span class="kanit__yer">yol haritasındaki deneme bölümü</span></a></li>
+        </ul>
+        <a class="ileri ileri--kucuk tanim__hepsi" href="#guven">Bütün kanıtlar: Neden güvenilir<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v15M5.5 13l6.5 6.5 6.5-6.5"/></svg></a>
+      </div>
+
+      <!-- Bölünmüş sahne: bugün çalışan ile olmakta olan yan yana. -->
+      <div class="sahne sahne--bolunmus">
+        <div class="bolum bolum--bugun">
+          <p class="durum-satiri"><span class="durum">Bugün çalışıyor</span></p>
+          <h3 class="bolum__ad agir">Bugün bir defter.</h3>
+          <p class="bolum__govde">töre, açık kaynaklı ve yerel bir defter olarak çalışıyor: töre'nin masaüstü sürümü (önizleme). Önizleme, erken bir sürüm demektir.</p>
+        </div>
+        <div class="bolum bolum--deneme">
+          <p class="durum-satiri"><span class="durum durum--okru">Kapalı deneme 15 Aralık'ta</span><span class="durum durum--okru">Uygulama geliştiriliyor</span></p>
+          <h3 class="bolum__ad hafif">Kapalı denemeyle bir tartışma yeri.</h3>
+          <p class="bolum__govde">töre, katılımcıların birbirini gördüğü ve konuları tartıştığı bir yer oluyor. Uygulama geliştiriliyor.</p>
+          <p class="not">Denemede neyin paylaşılacağı ve verinin nerede tutulacağı henüz açıklanmadı.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · Sorun: sesler karışınca hangi cümlenin kimin olduğu belirsizleşir. -->
+    <section class="sahne sahne--sorun" id="sorun" aria-labelledby="sorun-baslik">
+      <p class="etiket"><span class="etiket__no" aria-hidden="true">02</span>Sorun</p>
+      <h2 class="sorun__baslik" id="sorun-baslik"><span class="ince">Kimin ne düşündüğü</span> <span class="anahtar karisik"><span aria-hidden="true">k<b>a</b>r<b>ı</b>ş<b>ı</b>y<b>o</b>r</span><span class="gizli">karışıyor</span></span></h2>
+      <div class="sorun__govde">
+        <p>Yapay zekâyla birlikte düşündüğünde hangi cümlenin senin, hangisinin onun olduğu kısa sürede belirsizleşebilir.</p>
+        <p>Sonradan bir karara döndüğünde onu kimin önerdiğini, senin ne zaman benimsediğini bulmak zorlaşır. Konuşmalar biriktikçe düşüncenin kaynağı da kaybolabilir.</p>
+      </div>
+      <figure class="karisik-kayit">
+        <p class="kk__bas"><span>Konu: Mahalle kütüphanesi (sentetik)</span><span class="kk__rozet">Sesler ayrılmamış</span></p>
+        <ul class="kk__satirlar">
+          <li><span class="kk__kim">Kimin?</span><span class="kk__soz">“Cumartesi açık kalmaya devam edelim; hafta içi bir akşamı da bir ay deneyelim.”</span></li>
+          <li><span class="kk__kim">Kimin?</span><span class="kk__soz">“Hafta içi akşamlar, cumartesi çalışan okurlara da ulaşabilir.”</span></li>
+        </ul>
+        <figcaption>İki cümle, sesleri ayrılmadan: hangisi senin, hangisi öneri?</figcaption>
+      </figure>
+    </section>
+
+    <!-- 03 · Nasıl çalışır: üç ses ve örnek kayıt aynı sahnede. -->
+    <section class="sahne sahne--yuzey sahne--nasil" id="nasil" aria-labelledby="nasil-baslik">
+      <p class="etiket"><span class="etiket__no" aria-hidden="true">03</span>Nasıl çalışır</p>
+      <figure class="motif motif--blok motif--goz"><span class="motif__sekil" aria-hidden="true"></span><figcaption><b>Göz</b> · kilim motifi; geleneksel anlamı korunma</figcaption></figure>
+      <h2 class="nasil__baslik" id="nasil-baslik"><span class="agir">Üç ses</span> <span class="hafif">ayrı kalır</span></h2>
+      <p class="durum-satiri nasil__durum"><span class="durum">Bugün çalışıyor</span> töre'nin masaüstü sürümü (önizleme)</p>
+      <div class="nasil__sol">
+        <p class="nasil__govde">töre'nin masaüstü sürümü, yapay zekâ konuşmalarındaki kararları, görüşleri ve açık soruları kaynaklarıyla birlikte tutar. Her kayıtta üç ses ayrı durur; sen onaylamadan hiçbir şey senin görüşün olmaz.</p>
+        <dl class="uc-ses">
+          <div class="ses ses--kaynak">
+            <dt>Kaynak</dt>
+            <dd>Konuşmanın kendisi: ne zaman, hangi araçta, kim söyledi.</dd>
+          </div>
+          <div class="ses ses--soz">
+            <dt>Senin sözün</dt>
+            <dd>Yalnız senin seçip onayladığın cümleler düşünce haritana girer.</dd>
+          </div>
+          <div class="ses ses--yz">
+            <dt>Yapay zekâ önerisi</dt>
+            <dd>Öneri olarak işaretli durur. Sen kabul etmeden görüşün olmaz.</dd>
+          </div>
+        </dl>
+      </div>
+      <figure class="kayit">
+        <p class="kayit__bas"><span>Konu: Mahalle kütüphanesi (sentetik)</span><span class="kayit__rozet">Örnek kayıt</span></p>
+        <div class="kayit__ses kayit__ses--kaynak">
+          <p class="kayit__kim">Kaynak</p>
+          <p class="kayit__soz">Konuşma: “Kütüphanenin açık olduğu saatleri planlama”</p>
+          <p class="kayit__alt">Bir yapay zekâ sohbet aracı · 2 Kasım 2026, 19.02</p>
+        </div>
+        <div class="kayit__ses kayit__ses--soz">
+          <p class="kayit__kim">Senin sözün</p>
+          <p class="kayit__soz">“Cumartesi açık kalmaya devam edelim; hafta içi bir akşamı da bir ay deneyelim.”</p>
+          <p class="kayit__alt"><span class="durum">Onayladın</span> haritanda</p>
+        </div>
+        <div class="kayit__ses kayit__ses--yz">
+          <p class="kayit__kim">Yapay zekâ önerisi</p>
+          <p class="kayit__soz">Hafta içi akşamlar, cumartesi çalışan okurlara da ulaşabilir.</p>
+          <p class="kayit__alt"><span class="durum durum--okru">Onay bekliyor</span> görüşün değil</p>
+        </div>
+        <figcaption>Masaüstü sürümündeki bir kaydın sadeleştirilmiş çizimi. İçerik uydurmadır (sentetik veri); gerçek bir konuşmadan alınmadı.</figcaption>
+        <p class="bag kayit__kanit"><span class="bag__tur">Kanıt</span><a href="https://github.com/ondersamet97/tore#principles">Üç ses ilkesi (GitHub, İngilizce)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></p>
+      </figure>
+    </section>
+
+    <!-- 04 · Neden güvenilir: dört anahtar sözcük, her birinin yanında kanıtı ya da durumu. -->
+    <section class="sahne sahne--yuzey sahne--guven" id="guven" aria-labelledby="guven-baslik">
+      <p class="etiket"><span class="etiket__no" aria-hidden="true">04</span>Neden güvenilir</p>
+      <h2 class="guven__baslik" id="guven-baslik"><span class="agir">Kanıtı</span> <span class="hafif">kendin gör</span></h2>
+      <p class="guven__govde">Aşağıda, yapılmış her işin yanında kanıtı var; kendin denetleyebilirsin. Bitmemiş işin yanında kanıt değil, durumu yazar: “geliştiriliyor”. GitHub'daki belgeler İngilizce.</p>
+      <div class="guven__izgara">
+        <article class="kanit-kart">
+          <h3 class="kanit-kart__ad"><span class="agir">Yerel</span> veri</h3>
+          <p>töre'nin masaüstü sürümünde kayıtların ve düşünce haritan kendi bilgisayarında kalır. Masaüstü sürümü şu an bir önizleme.</p>
+          <p class="kapsam"><b>Kapsam:</b> Bu, masaüstü sürümü için geçerli. Denemede verinin nerede tutulacağı henüz açıklanmadı.</p>
+          <ul class="cipler">
+            <li><a class="cip" href="https://github.com/ondersamet97/tore#principles"><span class="cip__tur">Kanıt</span>“Varsayılan olarak yerel” ilkesi (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+            <li><a class="cip" href="https://github.com/ondersamet97/tore/blob/main/docs/PREVIEW-ARCHITECTURE.md"><span class="cip__tur">Kanıt</span>Mimari ve veri akışı (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+          </ul>
+        </article>
+        <article class="kanit-kart" id="lisans">
+          <h3 class="kanit-kart__ad"><span class="kanit-kart__ust">Açık kaynak:</span> <span class="agir">AGPL-3.0-only</span></h3>
+          <p>Kaynak kodu herkese açık: GNU Affero Genel Kamu Lisansı, sürüm 3 (AGPL-3.0-only). Kullanabilir, inceleyebilir, değiştirebilir ve paylaşabilirsin. töre'yi dağıtırsan kaynak kodunu aynı lisansla açman gerekir. Değiştirdiğin töre'yi ağ üzerinden sunarsan da aynı kural geçerli.</p>
+          <p class="kapsam">Bu koşullar sana uymuyorsa telif hakkı sahibinden ayrı bir ticari lisans alınabilir. Konuşmaların ve notların senindir; yazılım lisansına girmez.</p>
+          <ul class="cipler">
+            <li><a class="cip" href="https://github.com/ondersamet97/tore/blob/main/LICENSE"><span class="cip__tur">Kanıt</span>Lisans dosyası (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+            <li><a class="cip" href="https://github.com/ondersamet97/tore/blob/main/COMMERCIAL-LICENSE.md"><span class="cip__tur">Kanıt</span>Ticari lisans (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+          </ul>
+        </article>
+        <article class="kanit-kart kanit-kart--surec">
+          <h3 class="kanit-kart__ad hafif">Sayım</h3>
+          <p class="durum-satiri"><span class="durum durum--okru">Geliştiriliyor</span></p>
+          <p>Gelen ve giden her kuruş herkesin önünde sayılır. Henüz gelir yok.</p>
+          <ul class="cipler">
+            <li><a class="cip" href="katil.html#sayim"><span class="cip__tur">Bağlantı</span>Sayım'ın durumu<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a></li>
+          </ul>
+        </article>
+        <article class="kanit-kart">
+          <h3 class="kanit-kart__ad"><span class="agir">Yol</span> haritası</h3>
+          <p>Yayımlanan her sürümde neyin değiştiği, şu an geliştirilenler ve sıradaki işler tek sayfada.</p>
+          <ul class="cipler">
+            <li><a class="cip" href="yol.html"><span class="cip__tur">Kanıt</span>Yol haritası<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a></li>
+            <li><a class="cip" href="https://github.com/ondersamet97/tore/blob/main/CHANGELOG.md"><span class="cip__tur">Kanıt</span>Sürüm geçmişi (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+          </ul>
+        </article>
+      </div>
+      <p class="not guven__dipnot">Bu site çerez ve izleme kullanmaz; dışarıdan hiçbir şey yüklemez. töre, yapay zekâ kodlama araçlarının yardımıyla geliştiriliyor.</p>
+    </section>
+
+    <!-- 05 · Ürünler: şu an tek ürün töre; öteki ürünler beklemede. -->
+    <section class="sahne sahne--urunler" id="urunler" aria-labelledby="urunler-baslik">
+      <p class="etiket"><span class="etiket__no" aria-hidden="true">05</span>Ürünler</p>
+      <h2 class="urunler__baslik" id="urunler-baslik"><span class="agir">Tek ürün:</span> <span class="hafif">töre</span></h2>
+      <div class="urunler__ikili">
+        <article class="urun urun--tore">
+          <p class="urun__tur"><span>Uygulama</span><span class="durum durum--okru">Kapalı deneme 15 Aralık'ta</span></p>
+          <h3 class="urun__ad">töre</h3>
+          <p class="urun__govde">töre tek bir uygulama; ona bu siteden ulaşılır.</p>
+          <dl class="urun__durumlar">
+            <div class="urun__durum">
+              <dt><span class="nokta" aria-hidden="true"></span>Kapalı deneme</dt>
+              <dd>15 Aralık 2026'da başlayacak (az sayıda kişi, davetle). Uygulama geliştiriliyor.</dd>
+            </div>
+            <div class="urun__durum">
+              <dt><span class="nokta nokta--okru" aria-hidden="true"></span>Açık deneme</dt>
+              <dd>Şu anki hedef 22 Ocak 2027; bu tarih değişebilir.</dd>
+            </div>
+            <div class="urun__durum">
+              <dt><span class="nokta" aria-hidden="true"></span>Masaüstü sürümü</dt>
+              <dd>Önizleme, açık kaynak (AGPL). Son yayımlanmış kaynak kodu 0.18.0 (18 Kasım 2026), GitHub'da.</dd>
+            </div>
+          </dl>
+          <ul class="cipler">
+            <li><a class="cip" href="https://github.com/ondersamet97/tore"><span class="cip__tur">Kanıt</span>Kaynak kodunu GitHub'da incele<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+          </ul>
+        </article>
+        <article class="urun urun--beklemede">
+          <p class="urun__tur"><span>Öteki ürünler</span><span class="durum durum--okru">Beklemede</span></p>
+          <h3 class="urun__ad">Beklemede</h3>
+          <p class="urun__govde">Şu andaki tek ürünümüz töre. töre ile birlikte geliştirilecek ürünler şu an beklemede.</p>
+        </article>
+      </div>
+      <a class="ileri urunler__ileri" href="urunler.html">Ürünleri gör<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a>
+    </section>
+
+    <!-- 06 · Kim geliştiriyor: cümle büyük, ad cümlenin içinde. -->
+    <section class="sahne sahne--yuzey sahne--kim" id="kim" aria-labelledby="kim-baslik">
+      <p class="etiket"><span class="etiket__no" aria-hidden="true">06</span>Kim geliştiriyor</p>
+      <h2 class="kim__baslik" id="kim-baslik">töre, <b>Önder Samet</b> tarafından geliştirilen bir girişimdir.</h2>
+      <ul class="kim__olgular">
+        <li>töre bağımsızdır; henüz tüzel kişiliği olan bir şirket değildir.</li>
+        <li>töre, yapay zekâ kodlama araçlarının yardımıyla geliştiriliyor.</li>
+      </ul>
+      <a class="ileri kim__ileri" href="kim.html">Doğrulanabilir bilgileri gör<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a>
+    </section>
+
+    <!-- 07 · Sırada: başlayan kalın, hedeflenen ince; arada bir yol. -->
+    <section class="sahne sahne--sirada" id="sirada" aria-labelledby="sirada-baslik">
+      <p class="etiket"><span class="etiket__no" aria-hidden="true">07</span>Sırada</p>
+      <h2 class="sirada__baslik" id="sirada-baslik"><span class="agir">Önce kapalı deneme,</span> <span class="hafif">sonra açık deneme</span></h2>
+      <ol class="yol">
+        <li class="yol__adim">
+          <p class="yol__ad">Kapalı deneme <span class="durum durum--okru">15 Aralık 2026</span></p>
+          <p>Kapalı deneme 15 Aralık 2026'da az sayıda kişiyle, davetle başlayacak.</p>
+        </li>
+        <li class="yol__adim yol__adim--hedef">
+          <p class="yol__ad">Açık deneme <span class="durum durum--okru">Hedefleniyor</span></p>
+          <p>Açık denemeye geçiş için şu anki hedef 22 Ocak 2027; bu tarih değişebilir.</p>
+        </li>
+      </ol>
+      <div class="sirada__eylem">
+        <a class="dugme" href="yol.html#deneme">Dene<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a>
+        <p>Denemeye bugün katılmak isteyenler için iletişim yol haritasında.</p>
+        <a class="ileri" href="yol.html">Yol haritasının tamamı<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a>
+      </div>
+    </section>
+
+  <!-- 08 · Kapanış: perde yeniden açılır. -->
+  <section class="sahne sahne--kapanis" id="katil-son" aria-labelledby="son-baslik">
+    <p class="etiket kapanis__etiket"><span class="etiket__no" aria-hidden="true">08</span>Katıl</p>
+    <figure class="motif motif--blok motif--perde motif--bukagi"><span class="motif__sekil" aria-hidden="true"></span><figcaption><b>Bukağı</b> · kilim motifi; geleneksel anlamı birlik ve bağlılık</figcaption></figure>
+    <h2 class="kapanis__baslik" id="son-baslik">töre'ye katıl</h2>
+    <p class="kapanis__govde">Neden katılmalısın, bugün ne yapabilirsin: hepsi Katıl sayfasında.</p>
+    <a class="dugme dugme--perde kapanis__dugme" href="katil.html">Katıl<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a>
+  </section>
+
+  </div>
+
+</main>
+
+<footer class="alt">
+  <p>töre · Sürüm 0.20</p>
+  <p><a href="#lisans">Açık kaynak: AGPL-3.0-only</a><span aria-hidden="true">·</span><a href="https://github.com/ondersamet97/tore">Kaynak kodu (GitHub)</a></p>
+  <p>Bu site çerez ve izleme kullanmaz; dışarıdan hiçbir şey yüklemez.</p>
+  <p>Yazı tipi: Literata (SIL Open Font License)</p>
+</footer>
+
+</body>
+</html>

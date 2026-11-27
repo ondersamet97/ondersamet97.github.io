@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://ondersamet97.github.io/yol.html">
+<link rel="alternate" hreflang="tr" href="https://ondersamet97.github.io/yol.html">
+<link rel="alternate" hreflang="en" href="https://ondersamet97.github.io/en/yol.html">
+<link rel="alternate" hreflang="x-default" href="https://ondersamet97.github.io/yol.html">
+<link rel="icon" href="marka/favicon.svg" type="image/svg+xml">
+<title>Yol haritası · töre</title>
+<meta name="description" content="töre'nin yol haritası: sürüm 0.20, başlayan kapalı deneme, sırada açık deneme, geçmiş sürümler ve her işin yanında kanıtı ya da durumu.">
+<link rel="preload" href="ortak/Literata-wght.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="ortak/temel.css">
+<link rel="stylesheet" href="stil.css">
+<link rel="stylesheet" href="stil/yol.css">
+<script src="betik.js" defer></script>
+</head>
+<body class="sayfa--yol">
+<a class="atla" href="#icerik">İçeriğe geç</a>
+
+<header class="ust ust--tek">
+  <div class="ust__sol">
+    <a class="ust__marka" href="index.html" aria-label="töre ana sayfa">töre</a>
+    <nav class="ust__menu" aria-label="Ana menü">
+      <ul>
+        <li><a href="index.html#bilgi">Bilgi al</a></li>
+        <li><a href="urunler.html">Ürünler</a></li>
+        <li><a href="yol.html" aria-current="page">Yol haritası</a></li>
+        <li><a href="kim.html">Kim geliştiriyor</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="ust__sag">
+    <a class="ust__katil" href="katil.html">Katıl</a>
+    <a class="ust__dil" href="en/yol.html" hreflang="en" lang="en">EN<span class="gizli"> (English)</span></a>
+    <details class="ust__cekmece">
+      <summary><span class="ust__cekmece-ad">Menü</span></summary>
+      <nav aria-label="Ana menü">
+        <ul>
+          <li><a href="index.html#bilgi">Bilgi al</a></li>
+          <li><a href="urunler.html">Ürünler</a></li>
+          <li><a href="yol.html" aria-current="page">Yol haritası</a></li>
+          <li><a href="kim.html">Kim geliştiriyor</a></li>
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="icerik">
+
+  <!-- Açılış: dev ad ve yolun kendisi; üç durak yalnız dizindir. Soldan sağa eskiden yeniye:
+       geçmiş dolu çizgi, bugün kobalt durak, sırada kesik okru çizgi. -->
+  <section class="yh-acilis" data-perde aria-labelledby="baslik">
+    <h1 class="yh-acilis__baslik" id="baslik">Yol haritası</h1>
+    <p class="yh-acilis__govde">Ne yapıldı, sırada ne var; her işin yanında kanıtı ya da durumu.</p>
+    <ol class="yh-yol" aria-label="Kısaca">
+      <li class="yh-durak yh-durak--gecmis">
+        <a href="#gecmis">
+          <span class="yh-durak__ust">Masaüstü sürümünün son kaynak kodu</span>
+          <span class="yh-durak__ad">0.18.0</span>
+          <span class="yh-durak__alt">18 Kasım 2026</span>
+        </a>
+      </li>
+      <li class="yh-durak yh-durak--simdi">
+        <a href="#simdi">
+          <span class="yh-durak__ust">Şimdi</span>
+          <span class="yh-durak__ad">Sürüm 0.20</span>
+          <span class="yh-durak__alt">Bu site</span>
+        </a>
+      </li>
+      <li class="yh-durak yh-durak--sirada">
+        <a href="#sirada">
+          <span class="yh-durak__ust">Sırada</span>
+          <span class="yh-durak__ad">Açık deneme</span>
+          <span class="yh-durak__alt">Şu anki hedef 22 Ocak 2027</span>
+        </a>
+      </li>
+    </ol>
+  </section>
+
+  <!-- 01 · Sırada: açılıştaki kesik okru çizginin devamı. Açık deneme tek büyük sahne;
+       öteki iki iş aynı çizgi üzerinde küçük duraklar (kart değil). -->
+  <section class="sahne yh-sirada" id="sirada" aria-labelledby="sirada-baslik">
+    <p class="etiket"><span class="etiket__no" aria-hidden="true">01</span>Sırada</p>
+    <h2 class="yh-sirada__baslik" id="sirada-baslik">Açık deneme</h2>
+    <div class="yh-sirada__ana">
+      <p class="durum-satiri"><span class="durum durum--okru">Hedefleniyor</span></p>
+      <p class="yh-sirada__hedef">Açık denemeye geçiş için şu anki hedef <b>22&nbsp;Ocak&nbsp;2027</b>; bu tarih değişebilir.</p>
+      <ul class="cipler">
+        <li><a class="cip" href="#deneme"><span class="cip__tur">Bugün katılmak için</span>Kapalı deneme<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v15M5.5 13l6.5 6.5 6.5-6.5"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="yh-sonra">
+      <h3 class="yh-sonra__baslik">Ötekilerin tarihi henüz yok; sıraları ve kapsamları değişebilir.</h3>
+      <ol class="yh-duraklar">
+        <li class="yh-mini">
+          <p class="yh-mini__ad">Profiller</p>
+          <p class="durum-satiri"><span class="durum durum--okru">Geliştiriliyor</span></p>
+          <p class="yh-mini__not">Siteye giren herkes ileride kendi profilini oluşturacak.</p>
+        </li>
+        <li class="yh-mini">
+          <p class="yh-mini__ad">Katılma yolu, Sayım, bağış ve katılım listesi</p>
+          <p class="durum-satiri"><span class="durum durum--okru">Geliştiriliyor</span></p>
+          <p class="yh-mini__not">Sayım: töre'ye gelen ve töre'den çıkan paranın herkesin önünde sayılacağı yer. Henüz gelir yok.</p>
+          <a class="yh-mini__bag" href="katil.html#oteki">Bugünkü hâlleri Katıl sayfasında<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 02 · Gelecek haritası: iki yol yan yana; ürün ve bağımsızlık. Tarih yok, hepsi hedef (kurucu, 27 Kasım). -->
+  <section class="sahne sahne--yuzey yh-gelecek" id="gelecek" aria-labelledby="gelecek-baslik">
+    <p class="etiket"><span class="etiket__no" aria-hidden="true">02</span>Gelecek haritası</p>
+    <h2 class="yh-gelecek__baslik" id="gelecek-baslik"><span class="yh-dev">Gelecek</span> <span class="yh-gelecek__ince">iki yol, tarihsiz hedefler</span></h2>
+    <figure class="motif motif--blok motif--bukagi"><span class="motif__sekil" aria-hidden="true"></span><figcaption><b>Bukağı</b> · kilim motifi; geleneksel anlamı birlik ve bağlılık</figcaption></figure>
+    <div class="yh-gelecek__yollar">
+      <section class="yh-gyol yh-gyol--urun" aria-labelledby="gyol-urun">
+        <h3 class="yh-gyol__ad" id="gyol-urun">Ürün yolu</h3>
+        <ol class="yh-gyol__adimlar">
+          <li class="yh-hedef">
+            <p class="yh-hedef__ust"><span class="yh-hedef__no">1</span><span class="durum durum--okru">Hedef</span></p>
+            <h4 class="yh-hedef__ad">İçerik altyapısı</h4>
+            <p>Sevdiği konularda öğrenme hevesi olan ve bunu paylaşmak isteyenler töre'de içerik üretir. Paylaşmak istemeyenler, sevdiği konularda içerik üretenleri takip eder.</p>
+          </li>
+          <li class="yh-hedef">
+            <p class="yh-hedef__ust"><span class="yh-hedef__no">2</span><span class="durum durum--okru">Hedef</span></p>
+            <h4 class="yh-hedef__ad">Asistan</h4>
+            <p>töre, kişinin sosyal medyadaki her paylaşımıyla bütünleşen bir asistan olur: bireyin bütün paylaşımlarının ve görüşlerinin birleştiği yer.</p>
+          </li>
+        </ol>
+      </section>
+      <section class="yh-gyol yh-gyol--bagimsizlik" aria-labelledby="gyol-bagimsizlik">
+        <h3 class="yh-gyol__ad" id="gyol-bagimsizlik">Bağımsızlık yolu</h3>
+        <ol class="yh-gyol__adimlar">
+          <li class="yh-hedef">
+            <p class="yh-hedef__ust"><span class="yh-hedef__no">1</span><span class="durum durum--okru">Hedef</span><span class="durum">Yatırım aranıyor</span></p>
+            <h4 class="yh-hedef__ad">Önder Samet'in ekonomik bağımsızlığı</h4>
+            <p>Tamamen töre'ye odaklanabilmek. Bunun için plan yatırım almak; yatırım arama süreci başladı.</p>
+          </li>
+          <li class="yh-hedef">
+            <p class="yh-hedef__ust"><span class="yh-hedef__no">2</span><span class="durum durum--okru">Hedef</span></p>
+            <h4 class="yh-hedef__ad">İçerik üretenlerin ekonomik özgürlüğü</h4>
+            <p>töre'de içerik üretenlerin de ekonomik özgürlüğünü kazanabileceği bir seviyeye ulaşmak.</p>
+          </li>
+        </ol>
+      </section>
+    </div>
+    <div class="yh-nihai">
+      <p class="yh-nihai__ust"><span class="durum durum--okru">Nihai hedef</span></p>
+      <p class="yh-nihai__metin">Büyük bir dil modelinin töre'yi kullanmaya başlaması.</p>
+    </div>
+  </section>
+
+  <!-- 03 · Deneme: sitedeki bütün "Dene" düğmeleri buraya gelir. Sayfanın tek ana eylemi buradaki adres. -->
+  <section class="sahne sahne--yuzey yh-deneme" id="deneme" aria-labelledby="deneme-baslik">
+    <p class="etiket"><span class="etiket__no" aria-hidden="true">03</span>Deneme</p>
+    <h2 class="yh-deneme__baslik" id="deneme-baslik"><span class="yh-dev">Kapalı deneme</span> <span class="yh-dev">15 Aralık'ta</span></h2>
+    <p class="yh-deneme__govde">Kapalı deneme 15 Aralık 2026'da az sayıda kişiyle, davetle başlayacak. Katılımcılar birbirini görecek. Uygulama geliştiriliyor. Neyin paylaşılacağı ve verinin nerede tutulacağı henüz açıklanmadı.</p>
+    <div class="mesaj yh-bildirim">
+      <p class="yh-bildirim__metin">Şu anda denemeye katılmak istiyorsanız şu adresten ulaşabilirsiniz: <a class="yh-adres" href="mailto:ondersamet1997@gmail.com"><svg class="yh-adres__simge" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5h17v11h-17zM4 7.2l8 6 8-6"/></svg><span>ondersamet1997@gmail.com</span></a></p>
+      <p class="not">Bağlantı kendi e-posta uygulamanı açar; bu site senden bilgi toplamaz.</p>
+    </div>
+  </section>
+
+  <!-- 04 · Şimdi: dev 0.20; altında 0.19'un üç işi kısa bir yatay şeritte, eskiden yeniye. -->
+  <section class="sahne yh-simdi" id="simdi" aria-labelledby="simdi-baslik">
+    <p class="etiket"><span class="etiket__no" aria-hidden="true">04</span>Güncel sürüm</p>
+    <h2 class="yh-simdi__baslik" id="simdi-baslik"><span class="yh-simdi__on">Şimdi:</span> <span class="yh-dev yh-simdi__surum">0.20</span></h2>
+    <div class="yh-simdi__yirmi">
+      <p class="yh-simdi__tarih">Bu site</p>
+      <p class="yh-simdi__ne">Site yayımlandı. Kapalı deneme 15 Aralık 2026'da başlayacak.</p>
+      <ul class="cipler">
+        <li><a class="cip" href="#deneme"><span class="cip__tur">Bağlantı</span>Deneme<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20V5M5.5 11 12 4.5l6.5 6.5"/></svg></a></li>
+      </ul>
+    </div>
+
+    <div class="yh-ondokuz">
+      <h3 class="yh-ondokuz__baslik"><span class="yh-ondokuz__no">Sürüm 0.19</span> <span class="hafif">0.18.0'dan sonra yapılanlar</span></h3>
+      <ol class="yh-serit">
+        <li class="yh-is19">
+          <p class="yh-is19__tarih">23 Kasım 2026</p>
+          <h4 class="yh-is19__ad">Logo: <span class="yh-logo-harf">ö</span></h4>
+          <p>töre'nin logosu Literata ile dizilmiş ö harfi oldu (İngilizce sitede o). Sitedeki bütün yazılar da Literata.</p>
+        </li>
+        <li class="yh-is19">
+          <p class="yh-is19__tarih">25 Kasım 2026</p>
+          <h4 class="yh-is19__ad">Lisans kararı kesinleşti</h4>
+          <p>töre'nin <span class="yh-tek">AGPL-3.0-only</span> lisansında kalma kararı.</p>
+          <a class="cip" href="https://github.com/ondersamet97/tore/blob/main/LICENSE"><span class="cip__tur">Kanıt</span>Lisans dosyası (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a>
+        </li>
+        <li class="yh-is19">
+          <p class="yh-is19__tarih" aria-hidden="true">&nbsp;</p>
+          <h4 class="yh-is19__ad">Bu site kuruldu</h4>
+          <p>Şu an okuduğun site: töre'nin ne yaptığı, sırada ne olduğu ve kanıtları tek yerde.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 05 · Kelimelerin doğuşu: töre'nin sözcükleri ilk ne zaman doğdu. Yalnız sözcük ve tarih (kurucu, 27 Kasım). -->
+  <section class="sahne yh-kelimeler" id="kelimeler" aria-labelledby="kelimeler-baslik">
+    <p class="etiket"><span class="etiket__no" aria-hidden="true">05</span>Kelimelerin doğuşu</p>
+    <h2 class="yh-kelimeler__baslik" id="kelimeler-baslik"><span class="yh-dev">Kelimeler</span> <span class="yh-kelimeler__ince">ilk ne zaman doğdu</span></h2>
+    <div class="yh-kelimeler__yan">
+      <figure class="motif motif--hayatagaci"><span class="motif__sekil" aria-hidden="true"></span><figcaption><b>Hayat ağacı</b> · kilim motifi; geleneksel anlamı süreklilik</figcaption></figure>
+      <p>töre sözcüğü Orhun yazıtlarında düzen, yasa ve gelenek anlamında geçer. töre'nin kendi sözcükleri ise sürümlerden önce sohbetlerde doğdu. Tarihler o sohbetlerden, notlardan ve kod deposundan.</p>
+    </div>
+    <ol class="yh-kelime-serit">
+      <li class="yh-kelime">
+        <p class="yh-kelime__tarih">11 Kasım 2026</p>
+        <h3 class="yh-kelime__ad">İlk fikir</h3>
+        <p class="yh-kelime__govde">Yapay zekâyla yazılan raporların paylaşıldığı bir sosyal medya fikri.</p>
+      </li>
+      <li class="yh-kelime">
+        <p class="yh-kelime__tarih">13 Kasım 2026</p>
+        <h3 class="yh-kelime__ad">Törü</h3>
+        <p class="yh-kelime__govde">Proje adı ilk kez geçti, bu yazımla. İlk sürüm Törü 0.1.1: yerel bir Markdown arşivi.</p>
+      </li>
+      <li class="yh-kelime">
+        <p class="yh-kelime__tarih">14 Kasım 2026</p>
+        <h3 class="yh-kelime__ad">töre</h3>
+        <p class="yh-kelime__govde">Ad "töre" olarak kesinleşti.</p>
+      </li>
+      <li class="yh-kelime">
+        <p class="yh-kelime__tarih">15 Kasım 2026</p>
+        <h3 class="yh-kelime__ad">İlk kod kaydı</h3>
+        <p class="yh-kelime__govde">Kod deposundaki ilk kayıt: töre 0.8.0.</p>
+      </li>
+      <li class="yh-kelime">
+        <p class="yh-kelime__tarih">15 Kasım 2026</p>
+        <h3 class="yh-kelime__ad">Üç ses</h3>
+        <p class="yh-kelime__govde">Kaynak, senin sözün ve yapay zekâ önerisinin ayrı durması ilkesine bu ad verildi.</p>
+      </li>
+      <li class="yh-kelime">
+        <p class="yh-kelime__tarih">26 Kasım 2026</p>
+        <h3 class="yh-kelime__ad">Kapalı deneme</h3>
+        <p class="yh-kelime__govde">15 Aralık'ta az sayıda kişiyle başlayacak deneme kararlaştırıldı.</p>
+      </li>
+      <li class="yh-kelime">
+        <p class="yh-kelime__tarih">26 Kasım 2026</p>
+        <h3 class="yh-kelime__ad">Sayım</h3>
+        <p class="yh-kelime__govde">Gelir ve giderin herkesin önünde sayılacağı bölümün adı.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- 06 · Geçmiş sürümler: sekiz durak, soldan sağa eskiden yeniye (açılıştaki yolla aynı yön). -->
+  <section class="sahne sahne--yuzey yh-gecmis" id="gecmis" aria-labelledby="gecmis-baslik">
+    <p class="etiket"><span class="etiket__no" aria-hidden="true">06</span>Geçmiş sürümler · 0.11.0–0.18.0</p>
+    <h2 class="yh-gecmis__baslik" id="gecmis-baslik"><span class="yh-dev">Her sürüm</span> <span class="yh-gecmis__ince">tarihiyle kayıtlı</span></h2>
+    <div class="yh-gecmis__yan">
+      <p>Liste 0.11.0'dan başlıyor; kaynak kodu 0.12.0'da ilk kez herkese açıldı. Günlük geliştirme kapalı bir çalışma deposunda yapılır; açık depoda en son sürümün kodu durur. Her sürümün ayrıntısı GitHub'daki sürüm geçmişinde.</p>
+      <ul class="cipler">
+        <li><a class="cip" href="https://github.com/ondersamet97/tore/blob/main/CHANGELOG.md"><span class="cip__tur">Kanıt</span>Sürüm geçmişi (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+        <li><a class="cip" href="https://github.com/ondersamet97/tore#releases"><span class="cip__tur">Bağlantı</span>Deponun tanıtım sayfası (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+      </ul>
+    </div>
+    <ol class="yh-surumler">
+      <li class="yh-surum">
+        <p class="yh-surum__no">0.11.0</p>
+        <p class="yh-surum__tarih">15 Kasım 2026</p>
+        <h3 class="yh-surum__ad">Konuya dönüş.</h3>
+        <p>Konu özeti, inceleme kuyruğu ve eski arşivin taşınması.</p>
+      </li>
+      <li class="yh-surum yh-surum--acik">
+        <p class="yh-surum__no">0.12.0–0.12.2</p>
+        <p class="yh-surum__tarih">16 Kasım 2026</p>
+        <h3 class="yh-surum__ad">İlk açık kaynak sürüm.</h3>
+        <p>Düşünürler ve rüya defteri. Kaynak kodu 0.12.0'da herkese açıldı; 0.12.1'den beri AGPL-3.0-only lisanslı.</p>
+      </li>
+      <li class="yh-surum">
+        <p class="yh-surum__no">0.13.0</p>
+        <p class="yh-surum__tarih">16 Kasım 2026</p>
+        <h3 class="yh-surum__ad">Düşünce haritam.</h3>
+        <p>Haritanın ilk hâli, görüşleri sınama ve MCP bağdaştırıcısı.</p>
+      </li>
+      <li class="yh-surum">
+        <p class="yh-surum__no">0.14.0</p>
+        <p class="yh-surum__tarih">16 Kasım 2026</p>
+        <h3 class="yh-surum__ad">töre'den çalışmak.</h3>
+        <p>Görevler, iki yönlü MCP ve daha sade bir arayüz. MCP, yapay zekâ araçlarını töre'ye bağlayan bir standart.</p>
+      </li>
+      <li class="yh-surum">
+        <p class="yh-surum__no">0.15.0</p>
+        <p class="yh-surum__tarih">17 Kasım 2026</p>
+        <h3 class="yh-surum__ad">Yapay zekâ kodlama aracı için eklenti, çöp kutusu, temiz başlangıç.</h3>
+      </li>
+      <li class="yh-surum">
+        <p class="yh-surum__no">0.16.0</p>
+        <p class="yh-surum__tarih">18 Kasım 2026</p>
+        <h3 class="yh-surum__ad">Yeni tasarım, Türkçe ve İngilizce.</h3>
+        <p>Arayüz baştan tasarlandı; iki dil geldi.</p>
+      </li>
+      <li class="yh-surum">
+        <p class="yh-surum__no">0.17.0</p>
+        <p class="yh-surum__tarih">18 Kasım 2026</p>
+        <h3 class="yh-surum__ad">Yapay zekâ kodlama aracıyla yapılan konuşmalardan raporlar.</h3>
+        <p>Konuşmalardan öneriler çıkarılır; her öneri senin sözünden birebir alıntı içermek zorunda. Aşılan düşünceler ayrı durur.</p>
+      </li>
+      <li class="yh-surum yh-surum--son">
+        <p class="yh-surum__no">0.18.0</p>
+        <p class="yh-surum__tarih">18 Kasım 2026</p>
+        <h3 class="yh-surum__ad">töre haritanla açılıyor.</h3>
+        <p>Düşünce haritası kaydırılıp yakınlaştırılabilen bir tuval oldu; kişilik testi eklendi.</p>
+        <a class="yh-gecmis__sonra" href="#simdi">Sonrası: 0.19 ve şimdi, 0.20<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20V5M5.5 11 12 4.5l6.5 6.5"/></svg></a>
+      </li>
+    </ol>
+  </section>
+
+  <!-- 07 · Kanıtlar: iki kart, içerik boyunda. Kanıt türü yalnız dışarıda doğrulanabilen belgeye verilir. -->
+  <section class="sahne yh-kanitlar" id="kanitlar" aria-labelledby="kanitlar-baslik">
+    <p class="etiket"><span class="etiket__no" aria-hidden="true">07</span>Kanıtlar</p>
+    <h2 class="yh-kanitlar__baslik" id="kanitlar-baslik"><span class="yh-dev">Kendin</span> <span class="yh-kanitlar__ince">doğrula</span></h2>
+    <p class="yh-kanitlar__govde">töre'nin masaüstü sürümü senin kararlarını kaynaklarıyla birlikte tutar. töre kendi işini de aynı biçimde tutar: aşağıdaki iki maddeyi GitHub'daki belgelerden kendin doğrulayabilirsin. Bitmemiş işlerin yanında durumu yazılı. GitHub'daki belgeler İngilizce.</p>
+    <div class="yh-kanitlar__izgara">
+      <article class="kanit-kart">
+        <h3 class="kanit-kart__ad"><span class="yh-kalin">Yerel</span> veri</h3>
+        <p>töre'nin masaüstü sürümü kayıtlarını ve düşünce haritanı senin bilgisayarındaki bir klasörde tutar. Şu an bir önizleme, yani erken bir sürüm. Kaynak kodu açık; bunu kendin denetleyebilirsin.</p>
+        <p class="kapsam"><b>Kapsam:</b> Bu, masaüstü sürümü için geçerli. Deneme için: <a href="#deneme">geliştiriliyor</a>.</p>
+        <ul class="cipler">
+          <li><a class="cip" href="https://github.com/ondersamet97/tore#principles"><span class="cip__tur">Kanıt</span>“Varsayılan olarak yerel” ilkesi (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+          <li><a class="cip" href="https://github.com/ondersamet97/tore/blob/main/docs/PREVIEW-ARCHITECTURE.md"><span class="cip__tur">Kanıt</span>Mimari ve veri akışı (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+        </ul>
+      </article>
+      <article class="kanit-kart">
+        <h3 class="kanit-kart__ad"><span class="kanit-kart__ust">Açık kaynak</span> <span class="yh-kalin">AGPL-3.0-only</span></h3>
+        <ol class="yh-lisans">
+          <li><b>0.12.0</b> Kaynak kodu herkese açıldı.</li>
+          <li><b>0.12.1 · 16 Kasım 2026</b> Bu lisansa geçildi.</li>
+          <li><b>25 Kasım 2026</b> Bu lisansta kalma kararı kesinleşti.</li>
+        </ol>
+        <ul class="cipler">
+          <li><a class="cip" href="https://github.com/ondersamet97/tore/blob/main/LICENSE"><span class="cip__tur">Kanıt</span>Lisans dosyası (GitHub)<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></a></li>
+          <li><a class="cip" href="index.html#lisans"><span class="cip__tur">Bağlantı</span>Lisansın açıklaması<svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a></li>
+        </ul>
+      </article>
+    </div>
+    <p class="not yh-kanitlar__dipnot">töre, yapay zekâ kodlama araçlarının yardımıyla geliştiriliyor.</p>
+  </section>
+
+  <nav class="devam" aria-labelledby="devam-baslik">
+    <h2 id="devam-baslik">Okumaya devam et</h2>
+    <ul>
+      <li><a href="katil.html"><span><b>Katıl</b><span>Neden katılmalısın, bugün ne yapabilirsin</span></span><svg class="ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M13 5.5l6.5 6.5-6.5 6.5"/></svg></a></li>
+    </ul>
+  </nav>
+
+</main>
+
+<footer class="alt">
+  <p>töre · Sürüm 0.20</p>
+  <p><a href="index.html#lisans">Açık kaynak: AGPL-3.0-only</a><span aria-hidden="true">·</span><a href="https://github.com/ondersamet97/tore">Kaynak kodu (GitHub)</a></p>
+  <p>Bu site çerez ve izleme kullanmaz; dışarıdan hiçbir şey yüklemez.</p>
+  <p>Yazı tipi: Literata (SIL Open Font License)</p>
+</footer>
+
+</body>
+</html>

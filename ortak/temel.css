@@ -1,0 +1,64 @@
+/* töre düzen yönleri: ortak temel. Yalnız yazı tipi, palet ve sıfırlama burada.
+   Düzen kuralları her yönün kendi stil.css dosyasındadır. Bu dosyayı değiştirme.
+
+   Paletin işi:
+     --gece         zemin
+     --murekkep     yükseltilmiş yüzey (kart, panel)
+     --cizgi        ince çizgi, çerçeve
+     --kirik-beyaz  ana yazı rengi (açık temada koyu olur)
+     --soluk        ikincil yazı
+     --kobalt       marka, bağlantı, ana düğme
+     --kobalt-koyu  kobaltın koyu tonu
+     --turkuaz      yalnız yapay zekâ sesi
+     --okru         "geliştiriliyor", durum
+     --mercan       az kullanılır: itiraz, çürüme
+   Ara ton, saydamlık ve geçiş gerekiyorsa bu değişkenlerden color-mix() ile türet; sabit renk kodu yazma.
+   Koyu tema varsayılandır (Türkçe "töre"). <html class="acik"> açık temadır (İngilizce "tore"). */
+
+@font-face {
+  font-family: "Literata";
+  src: url("Literata-wght.woff") format("woff");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --gece: #10161D;
+  --murekkep: #17202A;
+  --cizgi: #2A3542;
+  --kirik-beyaz: #F1EFE9;
+  --soluk: #9AA5B1;
+  --kobalt: #8FA8EE;
+  --kobalt-koyu: #1F3F8F;
+  --turkuaz: #5BB8B6;
+  --okru: #D3A44A;
+  --mercan: #F08A7E;
+  --yazi: var(--kirik-beyaz);
+  --serif: "Literata", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  color-scheme: dark;
+}
+
+.acik {
+  --gece: #F7F6F2;
+  --murekkep: #ECEAE3;
+  --cizgi: #D6D2C8;
+  --kirik-beyaz: #17202A;
+  --soluk: #4F5760;
+  --kobalt: #1F3F8F;
+  --turkuaz: #1E7F80;
+  --okru: #8A6416;
+  --mercan: #B83A2E;
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--gece);
+  color: var(--kirik-beyaz);
+  font-family: var(--serif);
+  overflow-wrap: break-word;
+}
+img, svg { display: block; max-width: 100%; }
