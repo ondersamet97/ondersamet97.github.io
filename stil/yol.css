@@ -327,7 +327,7 @@
 }
 .yh-bildirim .not { margin-top: 16px; }
 
-/* ---------- 03 · Şimdi: dev 0.20, yanında ne oldu; altında 0.19 şeridi ---------- */
+/* ---------- 03 · Şimdi: dev sözcük, yanında ne oldu; altında sonraki işlerin şeridi ---------- */
 
 .yh-simdi {
   min-height: 0;
@@ -390,7 +390,7 @@
 .yh-ondokuz__no { font-weight: var(--yh-kalin); letter-spacing: -.02em; }
 .yh-ondokuz__baslik .hafif { color: var(--soluk); }
 
-/* 0.19 şeridi: dolu çizgi (bitmiş iş), küçük duraklar; kart yok. */
+/* Sonraki işlerin şeridi: dolu çizgi (bitmiş iş), küçük duraklar; kart yok. */
 .yh-serit {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
